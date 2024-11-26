@@ -19,7 +19,7 @@ const HeroSection = () => {
 
       <div className="relative z-20 flex flex-col justify-end h-screen pb-20">
         <img src={logo} alt="restura" className="w-full p-4" />
-        <p className="text-white text-xl italic ">TASTE OF PARIS</p>
+        <p className="text-white text-xl italic pl-4 ">TASTE OF PARIS</p>
       </div>
     </section>
   );

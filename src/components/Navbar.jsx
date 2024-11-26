@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-4 z-50 flex w-full  flex-col items-center justify-center">
-      <div className="flex justify-between items-center  backdrop-blur-3xl p-4 overflow-y-hidden lg:m-2 lg:w-[50rem]  lg:shadow-lg w-[95%] rounded-full">
+      <div className="flex justify-between items-center  backdrop-blur-3xl p-4 overflow-y-hidden  lg:m-2 lg:w-[50rem]  lg:shadow-lg w-[95%] rounded-full">
         <img src={logo} alt="" width={84} height={22} />
 
         <div className="hidden lg:flex space-x-6">
@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
 
       {isMobilemenuOpen && (
-        <div className=" h-screen w-full backdrop-blur-lg lg:hidden">
+        <div className=" h-screen backdrop-blur-lg lg:hidden mt-5 w-[95%] mx-auto rounded-lg">
           {LINKS.map((link, index) => (
             <a
               key={index}
