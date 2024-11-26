@@ -13,6 +13,7 @@ const HeroSection = () => {
           loop
           playsInline
           className="h-full w-full object-cover"
+          poster={herophoto}
         ></video>
       </div>
 

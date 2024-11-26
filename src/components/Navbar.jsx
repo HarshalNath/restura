@@ -7,7 +7,7 @@ import { FaBars } from "react-icons/fa6";
 const Navbar = () => {
   // deaclaring a state to change between mobile and desktop viewport
 
-  const [isMobilemenuOpen, setisMobilemenuOpen] = useState(true);
+  const [isMobilemenuOpen, setisMobilemenuOpen] = useState(false);
 
   //   now creating a toggle to get know thw state
 
