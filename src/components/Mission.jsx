@@ -4,25 +4,23 @@ import { MISSION } from "../constants";
 
 const Mission = () => {
   return (
-    <section id="mission ">
-      <div className="container mx-auto text-center p-8">
-        <h2 className="text-3xl lg:text-4xl tracking-tight text-center mb-8">
+    <section id="mission">
+      <div className="container mb-8 text-center mx-auto">
+        <h1 className="text-3xl lg:text-4xl tracking-tight mb-8">
           Our Mission
-        </h2>
-        {/*  */}
+        </h1>
         <div className="relative flex justify-center items-center">
           <video
-            autoPlay
-            loop
-            muted
             playsInline
-            className="w-[90%] rounded-3xl"
-            poster={missionimg}
+            autoPlay
+            muted
+            loop
+            className="w-[90%]  rounded-3xl"
           >
-            <source src={mission} type="video/mp4" />
+            <source src={mission} />
           </video>
-          <div className="absolute w-full h-full rounded-3xl bg-black/40"></div>
-          <p className="absolute lg:text-3xl max-w-lg tracking-tighter">
+          <div className="absolute w-[90%] h-full bg-black/40"></div>
+          <p className="absolute lg:max-w-lg w-[90%] px-3 lg:text-3xl">
             {MISSION}
           </p>
         </div>
