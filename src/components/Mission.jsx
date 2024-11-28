@@ -16,6 +16,7 @@ const Mission = () => {
             muted
             loop
             className="w-[90%]  rounded-3xl"
+            poster={missionimg}
           >
             <source src={mission} />
           </video>
