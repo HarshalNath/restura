@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Mission from "./components/Mission";
 import Navbar from "./components/Navbar";
 import OurExpertise from "./components/OurExpertise";
+import Review from "./components/Review";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Mission />
       <OurExpertise />
+      <Review />
     </main>
   );
 }
