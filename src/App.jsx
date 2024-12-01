@@ -1,5 +1,7 @@
 import About from "./components/About";
+import ContactUs from "./components/ContactUs";
 import Dishes from "./components/Dishes";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Mission from "./components/Mission";
 import Navbar from "./components/Navbar";
@@ -16,6 +18,8 @@ function App() {
       <Mission />
       <OurExpertise />
       <Review />
+      <ContactUs />
+      <Footer />
     </main>
   );
 }
